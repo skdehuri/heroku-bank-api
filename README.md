@@ -1,5 +1,11 @@
 # heroku-bank-api
 This is a demo project using DRF which includes two API end-point i.e. Search API and Autocomplete API. It is hosted on Heroku.
+e.g.
+```sh
+curl -v https://pure-ravine-81384.herokuapp.com/api/branches/?q=bangalore&limit=3&offset=0
+curl -v https://pure-ravine-81384.herokuapp.com/api/branches/autocomplete/?q=bangalore&limit=5&offset=1
+```
+
 
 ## Running Locally
 
